@@ -1,0 +1,100 @@
+/* ==========================================================
+   1. CÀI ĐẶT CHUNG (Times New Roman theo đề bài)
+   ========================================================== */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px auto;
+    text-align: center; /* Căn giữa toàn bộ nội dung */
+}
+
+.line-up {
+    border: none;
+    border-top: 1px solid #d3d3d3;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.line-down {
+    border: none;
+    border-top: 2px solid #c0c0c0;
+    margin: 10px 0;
+    width: 100%;
+}
+
+/* ==========================================================
+   2. TIÊU CHÍ CHẤM ĐIỂM 2: Menu Hover đầu trang
+   ========================================================== */
+.nav-links {
+    margin: 10px 0;
+}
+
+.nav-links a {
+    font-style: italic;
+    text-decoration: underline;
+    color: purple;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: all 0.2s;
+}
+
+/* Rê chuột vào link: chữ 20px, màu nâu */
+.nav-links a:hover {
+    font-size: 20px;
+    color: brown;
+}
+
+/* ==========================================================
+   3. TIÊU CHÍ CHẤM ĐIỂM 3: Tiêu đề H1
+   (In hoa, in nghiêng, chữ đỏ, bóng lệch màu xanh lá)
+   ========================================================== */
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;     /* Chữ in nghiêng */
+    color: red;             /* Chữ màu đỏ */
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px green; /* Bóng lệch màu xanh lá */
+}
+
+/* Khung tròn của ảnh */
+.circle-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;      /* Cắt thành hình tròn */
+    object-fit: cover;
+    border: 3px solid black; /* Viền đen quanh ảnh */
+    margin-right: 15px;      /* Cách câu thơ đầu một đoạn nhỏ */
+    vertical-align: bottom;  /* Giúp chữ câu 1 canh ngay chân ảnh */
+}
+
+/* Cài đặt chung cho các bài thơ */
+.poem {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+/* ==========================================================
+   4. ĐỊNH DẠNG MÀU SẮC RIÊNG TỪNG BÀI THƠ THEO HÌNH MẪU
+   ========================================================== */
+
+/* Bài 1: Chữ màu tím, in nghiêng */
+.poem-1 {
+    color: #7b2cbf;
+    font-style: italic;
+}
+
+/* Bài 2: Chữ màu xanh dương, in nghiêng, gạch chân */
+.poem-2 {
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* Bài 3: Chữ màu xanh lá cây, in nghiêng */
+.poem-3 {
+    color: green;
+    font-style: italic;
+}
